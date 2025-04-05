@@ -27,4 +27,4 @@ const useProjects = ({host}: {host: HostAPI}) => {
     return { projects };
 }
 
-export { useProjects };
+export default useProjects ;
