@@ -1,0 +1,10 @@
+.project-list__item {
+    align-items: center; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    position: relative;
+    margin: calc(var(--ring-unit) * 2) 0;
+    gap: var(--ring-unit);
+  }
+  

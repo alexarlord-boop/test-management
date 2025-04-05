@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "title": "My App",
+  "description": "test",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "test",
+    "url": "http://example.com"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "test",
+      "name": "Test Management",
+      "indexPath": "test/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "permissions": [],
+      "iconPath": "test/widget-icon.svg",
+      "description": "test"
+    }
+  ]
+}
