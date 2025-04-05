@@ -72,3 +72,8 @@ To upload and run the app:
 3. Once uploaded, the app called "Test Management" will appear in the main menu.
 
 For more details, see: [Upload the App to YouTrack](https://www.jetbrains.com/help/youtrack/devportal/apps-quick-start-guide.html#add-app-to-youtrack)
+
+
+## Results
+Flag is stored in the global extension storage and is available across sessions. The app also displays a list of available projects with their avatars.
+![Test Management App Preview](tmapp-preview.png)
