@@ -27,7 +27,7 @@ The task was to create a YouTrack App that:
 
 ### Components
 
-- `FlagToggle` – A Ring UI toggle switch with a tooltip and labeled "Global Flag"
+- `FlagToggle` – A Ring UI toggle switch labeled "Global Flag"
 - `ProjectList` – Renders a list of YouTrack projects with avatars
 
 Both are located in the `/components` directory.
@@ -45,7 +45,7 @@ Hooks are located in the `/hooks` directory.
 
 The toggle flag value is persisted using YouTrack’s **global extension storage**:
 
-- Handlers are defined in `entity-extensions.js`
+- Handlers are defined in `backend.js`
 - Flag is stored via `ctx.globalStorage.extensionProperties`
 
 For more details, see: [App Global Storage Reference](https://www.jetbrains.com/help/youtrack/devportal/apps-extension-properties.html#global-storage)
